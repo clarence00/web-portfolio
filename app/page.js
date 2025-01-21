@@ -4,7 +4,7 @@ import Hero from "./components/Hero";
 export default function Home() {
   return (
     <>
-      <div data-theme="dark">
+      <div data-theme="forest">
         <Hero />
       </div>
     </>

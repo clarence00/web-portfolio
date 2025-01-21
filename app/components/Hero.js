@@ -7,8 +7,8 @@ import Gallery from "../assets/icons/gallery.svg";
 
 export default function Hero() {
   return (
-    <div id="home">
-      <div className="h-screen">
+    <div id="about">
+      <div className="h-screen top-0">
         <div className="max-w-[800px] m-auto w-full h-full flex flex-col justify-center items-start">
           {/* Name Section */}
           <h1 className=" font-bold text-5xl">
