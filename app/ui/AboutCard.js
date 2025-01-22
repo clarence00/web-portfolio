@@ -17,7 +17,7 @@ export default function AboutCard({
           className="font-bold text-md card-title">
           {title}
         </a>
-        <div className="flex justify-between italic">
+        <div className="flex justify-between -mt-2 italic">
           <h6 className="text-sm">{subtitle}</h6>
           <h6 className="text-sm">{duration}</h6>
         </div>
