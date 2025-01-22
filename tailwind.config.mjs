@@ -7,6 +7,13 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        "grid-pattern":
+          "radial-gradient(circle, oklch(var(--nc)/0.2) 1px, transparent 1px)",
+      },
+      backgroundSize: {
+        "grid-pattern": "16px 16px",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",

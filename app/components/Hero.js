@@ -9,7 +9,7 @@ export default function Hero() {
   return (
     <div id="about">
       <div className="h-screen top-0">
-        <div className="max-w-[800px] m-auto w-full h-full flex flex-col justify-center items-start">
+        <div className="max-w-[800px] m-auto pb-16 w-full h-full flex flex-col justify-center items-start">
           {/* Name Section */}
           <h1 className=" font-bold text-5xl">
             Hi! I&#39;m Clarence Natividad

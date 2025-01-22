@@ -20,9 +20,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        data-theme="forest"
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      <body className="{`${geistSans.variable} ${geistMono.variable} antialiased`} relative bg-grid-pattern min-h-screen">
         <HeaderNav />
         {children}
       </body>
