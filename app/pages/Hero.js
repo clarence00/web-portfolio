@@ -4,7 +4,7 @@ import Instagram from "../assets/icons/instagram.svg";
 import Github from "../assets/icons/github.svg";
 import LinkedIn from "../assets/icons/linkedin.svg";
 import Gallery from "../assets/icons/gallery.svg";
-import AboutCard from "../ui/AboutCard";
+import AboutCard from "../components/AboutCard";
 
 export default function Hero() {
   return (
