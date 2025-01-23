@@ -8,7 +8,7 @@ export default function AboutCard({
   duration,
 }) {
   return (
-    <div className="card card-compact w-[65%] mx-auto duration-200 hover:scale-105 bg-accent/[0.1] shadow-xl ">
+    <div className="card card-compact w-[80%] mx-4 duration-200 hover:scale-105 bg-accent/[0.1] shadow-xl ">
       <div className="card-body">
         <a
           href={href}
