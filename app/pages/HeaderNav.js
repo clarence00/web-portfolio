@@ -15,7 +15,7 @@ export default function HeaderNav() {
       </div>
       <div className="flex-none px-8">
         <ul className="menu menu-horizontal px-1">
-          {["About", "Career", "Skills", "Projects"].map((item) => (
+          {["About", "Experience", "Projects"].map((item) => (
             <li key={item}>
               <a
                 href={`#${item.toLowerCase()}`}

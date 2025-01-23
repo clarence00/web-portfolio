@@ -1,7 +1,7 @@
 import React from "react";
 import CareerCard from "../components/CareerCard";
 
-export default function Career() {
+function Experience() {
   const careerData = [
     {
       title: "Full Stack Developer Intern",
@@ -43,7 +43,7 @@ export default function Career() {
   ];
 
   return (
-    <div id="career">
+    <div>
       <div className="flex flex-col items-center my-8 ">
         <h1 className="text-3xl font-bold p-8">Career</h1>
         {/* Career Cards */}
@@ -57,3 +57,5 @@ export default function Career() {
     </div>
   );
 }
+
+export default Experience;
