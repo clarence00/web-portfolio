@@ -7,7 +7,8 @@ import CareerCard from "../components/CareerCard";
 export default function Career() {
   const careerData = [
     {
-      title: "Full Stack Developer",
+      title: "Full Stack Developer Intern",
+      href: "",
       company: "Achieve Without Borders, Inc.",
       duration: "Aug 2023 - Oct 2023",
       details: [
@@ -30,8 +31,9 @@ export default function Career() {
       size: "24px",
     },
     {
-      title: "Designer",
-      company: "I Map Inc.",
+      title: "Graphic Designer and Digital Marketing Intern",
+      href: "",
+      company: "I-Map Websolutions, Inc.",
       duration: "Aug 2022 - Oct 2022",
       details: [
         "Collaborated with a team to design ad posters and promotional materials for an e-commerce platform",

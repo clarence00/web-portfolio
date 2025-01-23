@@ -106,21 +106,23 @@ export default function Hero() {
           </div>
           <div className="m-auto divider w-[70%]"></div>
         </div>
-        <AboutCard
-          href="https://www.pup.edu.ph/"
-          title="Polytechnic University of the Philippines"
-          subtitle="College"
-          duration="2020 - 2024"
-          details="Bachelor of Science in Computer Engineering, Specializing in System
+        <div className="flex w-[70%] m-auto gap-4">
+          <AboutCard
+            href="https://www.pup.edu.ph/"
+            title="Polytechnic University of the Philippines"
+            subtitle="College"
+            duration="2020 - 2024"
+            details="Bachelor of Science in Computer Engineering, Specializing in System
             Development"
-        />
-        <AboutCard
-          href="https://www.rhspasig.com/"
-          title="Rizal High School"
-          subtitle="Senior High"
-          duration="2018 - 2020"
-          details="Arts and Design"
-        />
+          />
+          <AboutCard
+            href="https://www.rhspasig.com/"
+            title="Rizal High School"
+            subtitle="Senior High"
+            duration="2018 - 2020"
+            details="Arts and Design"
+          />
+        </div>
         <div className="m-auto divider w-[70%]"></div>
       </div>
     </div>

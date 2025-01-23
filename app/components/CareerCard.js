@@ -3,6 +3,7 @@ import Icons from "./Icons";
 
 export default function CareerCard({
   title,
+  href,
   company,
   duration,
   details,
@@ -14,7 +15,13 @@ export default function CareerCard({
       <div className="card-body group">
         <h2 className="card-title">{title}</h2>
         <div className="flex justify-between italic -mt-2">
-          <h6 className="text-sm">{company}</h6>
+          <a
+            href={href}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-sm hover:underline underline-offset-2">
+            {company}
+          </a>
           <h6 className="text-sm">{duration}</h6>
         </div>
         <div className="divider my-0"></div>

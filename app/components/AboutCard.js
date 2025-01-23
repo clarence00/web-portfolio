@@ -8,13 +8,13 @@ export default function AboutCard({
   duration,
 }) {
   return (
-    <div className="card card-compact w-[65%] mx-auto duration-200 hover:scale-105 hover:bg-accent/[0.1] hover:shadow-xl">
+    <div className="card card-compact w-[65%] mx-auto duration-200 hover:scale-105 bg-accent/[0.1] shadow-xl ">
       <div className="card-body">
         <a
           href={href}
           target="_blank"
           rel="noopener noreferrer"
-          className="font-bold text-md card-title">
+          className="font-bold text-md card-title hover:underline underline-offset-2">
           {title}
         </a>
         <div className="flex justify-between -mt-2 italic">
