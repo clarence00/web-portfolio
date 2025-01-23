@@ -6,7 +6,7 @@ import LinkedIn from "../assets/icons/linkedin.svg";
 import Gallery from "../assets/icons/gallery.svg";
 import AboutCard from "../components/AboutCard";
 
-export default function About() {
+function About() {
   return (
     <div id="about">
       <div className="mb-20">
@@ -128,3 +128,5 @@ export default function About() {
     </div>
   );
 }
+
+export default About;
