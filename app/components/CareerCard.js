@@ -1,4 +1,6 @@
-import React from "react";
+"use client";
+
+import React, { useState, useEffect } from "react";
 import Icons from "./Icons";
 
 export default function CareerCard({
@@ -10,9 +12,22 @@ export default function CareerCard({
   icons,
   size,
 }) {
+  const [pointerEnabled, setPointerEnabled] = useState();
+
+  useEffect(() => {
+    setPointerEnabled(false);
+    const timer = setTimeout(() => {
+      setPointerEnabled(true);
+    }, 2000);
+
+    return () => clearTimeout(timer);
+  }, []);
   return (
-    <div className="card card-compact w-[50%] mx-auto my-4 duration-200 hover:scale-105 hover:bg-accent/[0.1] hover:shadow-lg">
-      <div className="card-body group">
+    <div
+      className={`flex flex-col rounded-2xl w-[50%] mx-auto my-4 duration-200 hover:scale-105 hover:bg-accent/[0.1] hover:shadow-lg ${
+        pointerEnabled ? "pointer-events-auto" : "pointer-events-none"
+      }`}>
+      <div className="card-body p-4 group">
         <h2 className="card-title">{title}</h2>
         <div className="flex justify-between italic -mt-2">
           <a

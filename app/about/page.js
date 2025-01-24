@@ -1,4 +1,5 @@
 import React from "react";
+
 import Facebook from "../assets/icons/facebook.svg";
 import Instagram from "../assets/icons/instagram.svg";
 import Github from "../assets/icons/github.svg";
@@ -18,7 +19,6 @@ function About() {
             <h1 className="font-bold text-5xl text-primary pb-4">
               Clarence Natividad
             </h1>
-            {/* About Card */}
             <p className="text-sm pr-4 py-4">
               I am a fresh computer engineering graduate, passionate about web
               development. I have hands-on experience with both front-end and
@@ -26,7 +26,8 @@ function About() {
               enjoy crafting and designing stuffs.
             </p>
           </div>
-          <div className=" flex flex-col justify-center items-end gap-4">
+          {/* About Card */}
+          <div className="flex flex-col justify-center items-end gap-4">
             <AboutCard
               href="https://www.pup.edu.ph/"
               title="Polytechnic University of the Philippines"

@@ -1,4 +1,3 @@
-import { hover } from "framer-motion";
 import React from "react";
 
 export default function Icons({ type, size }) {
@@ -67,13 +66,13 @@ export default function Icons({ type, size }) {
   const badgeColor = badgeColorMap[type] || "bg-neutral";
 
   return (
-    <div className="relative flex flex-col items-center group/icon">
+    <div className="flex flex-col items-center group/icon">
       <Icon
         className={`duration-100 ease-in group-hover/icon:-translate-y-2 group-hover/icon:scale-110`}
         style={{ width: size, height: size }}
       />
       <div
-        className={`absolute text-xs font-bold rounded-lg opacity-0 px-1.5 py-0.5 top-full whitespace-nowrap group-hover/icon:text-white group-hover/icon:opacity-100 ${badgeColor}`}>
+        className={`absolute -translate-y-4 text-xs font-bold rounded-lg opacity-0 px-1.5 py-0.5 top-full whitespace-nowrap group-hover/icon:text-white group-hover/icon:opacity-100 ${badgeColor}`}>
         {type.charAt(0).toUpperCase() + type.slice(1)}
       </div>
     </div>

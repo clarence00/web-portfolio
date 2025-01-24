@@ -1,4 +1,6 @@
-import React from "react";
+"use client";
+
+import React, { useState, useEffect } from "react";
 
 export default function AboutCard({
   href,
@@ -7,9 +9,23 @@ export default function AboutCard({
   details,
   duration,
 }) {
+  const [pointerEnabled, setPointerEnabled] = useState();
+
+  useEffect(() => {
+    setPointerEnabled(false);
+    const timer = setTimeout(() => {
+      setPointerEnabled(true);
+    }, 2000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
-    <div className="card card-compact w-[80%] mx-4 duration-200 hover:scale-105 bg-accent/[0.1] shadow-xl ">
-      <div className="card-body">
+    <div
+      className={`flex flex-col rounded-2xl w-[80%] mx-4 duration-200 hover:scale-105 bg-accent/[0.1] shadow-xl ${
+        pointerEnabled ? "pointer-events-auto" : "pointer-events-none"
+      }`}>
+      <div className="card-body p-4">
         <a
           href={href}
           target="_blank"
