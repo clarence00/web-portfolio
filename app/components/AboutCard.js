@@ -15,7 +15,7 @@ export default function AboutCard({
     setPointerEnabled(false);
     const timer = setTimeout(() => {
       setPointerEnabled(true);
-    }, 2000);
+    }, 1500);
 
     return () => clearTimeout(timer);
   }, []);
