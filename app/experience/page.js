@@ -1,5 +1,8 @@
-import React from "react";
+"use client";
+
+import React, { useState } from "react";
 import CareerCard from "../components/CareerCard";
+import TechStackCard from "../components/TechStackCard";
 
 function Experience() {
   const careerData = [
@@ -26,6 +29,7 @@ function Experience() {
         "git",
       ],
       size: "24px",
+      position: "translate-y-6",
     },
     {
       title: "Graphic Designer and Digital Marketing Intern",
@@ -39,20 +43,74 @@ function Experience() {
       ],
       icons: ["canva", "photoshop"],
       size: "24px",
+      position: "translate-y-6",
     },
+  ];
+
+  const techStackData = [
+    { icon: "figma" },
+    { icon: "javascript" },
+    { icon: "sass" },
+    { icon: "react" },
+    { icon: "nextjs" },
+    { icon: "css" },
+  ];
+
+  const toolData = [
+    { icon: "vscode" },
+    { icon: "canva" },
+    { icon: "photoshop" },
+  ];
+
+  const [active, setActive] = useState("Career");
+
+  const handleSetActive = (menuItem) => {
+    setActive(menuItem);
+  };
+
+  const links = [
+    { name: "Career", path: "experience" },
+    { name: "Tech Stacks", path: "techStacks" },
+    { name: "Tools", path: "tools" },
   ];
 
   return (
     <div>
-      <div className="flex flex-col items-center my-8 ">
-        <h1 className="text-3xl font-bold p-8">Career</h1>
-        {/* Career Cards */}
-        {careerData.map((data, index) => (
-          <CareerCard
-            key={index}
-            {...data}
-          />
-        ))}
+      <div className="flex flex-col items-center">
+        <h1 className="text-3xl font-bold p-8">Experience</h1>
+        <div className="flex mx-[15%] justify-center gap-12">
+          <div className="flex flex-col pt-20 gap-2">
+            {links.map((item) => (
+              <button
+                key={item.name}
+                className={`${
+                  active === item.name ? "btn-active text-primary-content" : ""
+                } h-12 w-64 text-sm font-medium border border-accent btn-outline b text-accent rounded-2xl btn-accent`}
+                onClick={() => handleSetActive(item.name)}>
+                {item.name}
+              </button>
+            ))}
+          </div>
+          <div className="w-[600px]">
+            {/* Career Cards */}
+            {active === "Career" && (
+              <>
+                {careerData.map((data, index) => (
+                  <CareerCard
+                    key={index}
+                    {...data}
+                  />
+                ))}
+              </>
+            )}
+            {/* Tech Stack Cards */}
+            {active === "Tech Stacks" && (
+              <TechStackCard techData={techStackData} />
+            )}
+            {/* Tool Cards */}
+            {active === "Tools" && <TechStackCard techData={toolData} />}
+          </div>
+        </div>
       </div>
     </div>
   );

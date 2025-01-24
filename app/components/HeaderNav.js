@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 
 export default function HeaderNav() {
-  const [active, setActive] = useState("About");
+  const [active, setActive] = useState();
 
   const handleSetActive = (menuItem) => {
     setActive(menuItem);

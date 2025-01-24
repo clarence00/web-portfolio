@@ -11,6 +11,7 @@ export default function CareerCard({
   details,
   icons,
   size,
+  position,
 }) {
   const [pointerEnabled, setPointerEnabled] = useState();
 
@@ -24,7 +25,7 @@ export default function CareerCard({
   }, []);
   return (
     <div
-      className={`flex flex-col rounded-2xl w-[50%] mx-auto my-4 duration-200 hover:scale-105 hover:bg-accent/[0.1] hover:shadow-lg ${
+      className={`flex flex-col rounded-2xl mx-auto my-4 duration-200 hover:scale-105 hover:bg-base-300/[0.8] hover:shadow-lg hover:border hover: border-white/[0.1] ${
         pointerEnabled ? "pointer-events-auto" : "pointer-events-none"
       }`}>
       <div className="card-body p-4 group">
@@ -52,6 +53,7 @@ export default function CareerCard({
               key={index}
               type={icon}
               size={size}
+              position={position}
             />
           ))}
         </div>
