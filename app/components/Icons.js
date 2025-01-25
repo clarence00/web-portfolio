@@ -2,6 +2,7 @@ import React from "react";
 
 export default function Icons({ type, size, position, className }) {
   const iconMap = {
+    androidstudio: require("../assets/icons/androidstudio.svg").default,
     canva: require("../assets/icons/canva.svg").default,
     csharp: require("../assets/icons/csharp.svg").default,
     css: require("../assets/icons/css.svg").default,
@@ -27,12 +28,14 @@ export default function Icons({ type, size, position, className }) {
     python: require("../assets/icons/python.svg").default,
     react: require("../assets/icons/react.svg").default,
     sass: require("../assets/icons/sass.svg").default,
+    sqlite: require("../assets/icons/sqlite.svg").default,
     tailwindcss: require("../assets/icons/tailwindcss.svg").default,
     unity: require("../assets/icons/unity.svg").default,
     vscode: require("../assets/icons/vscode.svg").default,
   };
 
   const badgeColorMap = {
+    androidstudio: "bg-customGreen",
     canva: "bg-customBlue-light",
     csharp: "bg-customViolet",
     css: "bg-customBlue-dark",
@@ -57,6 +60,7 @@ export default function Icons({ type, size, position, className }) {
     python: "bg-customBlue-dark",
     react: "bg-customBlue-light",
     sass: "bg-customPink",
+    sqlite: "bg-customBlue",
     tailwindcss: "bg-customBlue-light",
     unity: "bg-gray-600",
     vscode: "bg-customBlue-light",

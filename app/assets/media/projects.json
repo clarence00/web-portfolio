@@ -2,57 +2,73 @@
   {
     "images": [
       "imodatabase/1.png",
-      "imodatabase/1.png",
-      "imodatabase/1.png"
+      "imodatabase/2.png",
+      "imodatabase/3.png",
+      "imodatabase/4.png",
+      "imodatabase/5.png"
     ],
     "title": "IMO Database System",
-    "date": "2020",
+    "date": "2023 - 2024",
     "caption":
-      "IMO Doba (IMO Docubase) is a digitized document database system, relying on inputs from the Raspberry Pi which utlizes Optical Character Recognition,",
+      "A digital document database system that automate text recognition and file naming.",
     "details":
-      "IMO Doba (IMO Docubase) is a digitized document database system, relying on inputs from the Raspberry Pi which utlizes Optical Character Recognition, to recognize texts and automatically name files accordingly.'\n' The system was developed by our group in thesis and my role involved creating the design layout of the web in Figma, handling the database and frontend side of web using SQLite and Django.",
-    "icons": ["react", "sass", "javascript"]
+      "IMO Doba (IMO Docubase) is a digital document database system designed to streamline document management. It leverages Raspberry Pi and Optical Character Recognition (OCR) technology to detect text and automatically generate appropriate file names. Developed as part of our thesis project, my responsibilities included designing the web interface using Figma and implementing the frontend and database functionality with Django and SQLite.",
+    "icons": ["django", "sqlite", "figma"]
   },
   {
     "images": [
-      "imodatabase/1.png",
-      "imodatabase/1.png",
-      "imodatabase/1.png"
+      "letmecook/1.jpg",
+      "letmecook/2.jpg",
+      "letmecook/3.jpg",
+      "letmecook/4.jpg",
+      "letmecook/5.jpg",
+      "letmecook/6.jpg",
+      "letmecook/7.jpg",
+      "letmecook/8.png"
     ],
-    "title": "IMO Database System 1",
-    "date": "2020",
+    "title": "Let Me Cook",
+    "date": "2023 - 2024",
     "caption":
-      "IMO Doba (IMO Docubase) is a digitized document database system, relying on inputs from the Raspberry Pi which utlizes Optical Character Recognition,",
+      "A social media platform for food enthusiasts to share and discover a variety of recipes.",
     "details":
-      "IMO Doba (IMO Docubase) is a digitized document database system, relying on inputs from the Raspberry Pi which utlizes Optical Character Recognition, to recognize texts and automatically name files accordingly.'\n' The system was developed by our group in thesis and my role involved creating the design layout of the web in Figma, handling the database and frontend side of web using SQLite and Django.",
-    "icons": ["react", "sass", "javascript"]
+      "Let Me Cook is a social media application tailored for food lovers, enabling users to share their favorite recipes and explore a vast collection of culinary ideas. This project was developed by a team of four, where my role involved creating visually appealing assets and wireframes in Figma, ensuring the user interface was intuitive and engaging. I also worked extensively on the frontend, developing interactive widgets in Flutter, and responsible in managing the database structure in Firebase.",
+    "icons": ["flutter", "firebase", "figma"]
   },
   {
     "images": [
-      "imodatabase/1.png",
-      "imodatabase/1.png",
-      "imodatabase/1.png"
+      "badi/1.jpg",
+      "badi/2.png",
+      "badi/3.png",
+      "badi/4.png",
+      "badi/5.png",
+      "badi/6.png"
     ],
-    "title": "IMO Database System 2",
-    "date": "2020",
+    "title": "Badi",
+    "date": "2023",
     "caption":
-      "IMO Doba (IMO Docubase) is a digitized document database system, relying on inputs from the Raspberry Pi which utlizes Optical Character Recognition,",
+      "An engaging pixel-art-inspired note-taking and reviewer app designed for productivity.",
     "details":
-      "IMO Doba (IMO Docubase) is a digitized document database system, relying on inputs from the Raspberry Pi which utlizes Optical Character Recognition, to recognize texts and automatically name files accordingly.'\n' The system was developed by our group in thesis and my role involved creating the design layout of the web in Figma, handling the database and frontend side of web using SQLite and Django.",
-    "icons": ["react", "sass", "javascript"]
+      "Badi is a mobile application designed for self-studying users that wants to take notes and review topic effectively. This is the second app that I have designed. The app was inspired with retro pixel-art aesthetic, which were all created using Photoshop and developed using Unity.",
+    "icons": ["csharp", "unity", "photoshop", "androidstudio"]
   },
   {
     "images": [
-      "imodatabase/1.png",
-      "imodatabase/1.png",
-      "imodatabase/1.png"
+      "mathconnect/1.jpg",
+      "mathconnect/2.jpg",
+      "mathconnect/3.jpg",
+      "mathconnect/4.jpg",
+      "mathconnect/5.png",
+      "mathconnect/6.png",
+      "mathconnect/7.png",
+      "mathconnect/8.png"
     ],
-    "title": "IMO Database System 3",
-    "date": "2020",
+    "title": "Math Connect",
+    "date": "2022",
     "caption":
-      "IMO Doba (IMO Docubase) is a digitized document database system, relying on inputs from the Raspberry Pi which utlizes Optical Character Recognition,",
+      "A fun and interactive puzzle game designed to teach basic math operations through engaging gameplay.",
     "details":
-      "IMO Doba (IMO Docubase) is a digitized document database system, relying on inputs from the Raspberry Pi which utlizes Optical Character Recognition, to recognize texts and automatically name files accordingly.'\n' The system was developed by our group in thesis and my role involved creating the design layout of the web in Figma, handling the database and frontend side of web using SQLite and Django.",
-    "icons": ["react", "sass", "javascript"]
+    "Math Connect is an educational puzzle game designed for users who wants to learn basic math operations. This is the first game development app we have done for our project. The game was my idea inspired from the different pixel style and io games I have found in the internet. In this project, I created all of the assets and animations in Photoshop, lead the development of both frontend and backend side of the game.",
+    "icons": ["csharp", "unity", "photoshop", "androidstudio"]
   }
+ 
 ]

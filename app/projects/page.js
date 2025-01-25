@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import ProjectModal from "../components/ProjectModal";
 import projectsData from "../assets/media/projects.json";
-import ProjectItem from "../components/ProjectItem";
+import ProjectCard from "../components/ProjectCard";
 
 const importAllImages = (imageFilenames) => {
   return imageFilenames.map((filename) => {
@@ -30,16 +30,17 @@ function Projects() {
   return (
     <div className="flex flex-col items-center">
       <h1 className="text-3xl font-bold p-8 pt-16">Project</h1>
-      <div className="flex gap-4 mx-[10%] flex-wrap">
+      <div className="flex gap-2 mx-[10%] flex-wrap">
         {projects.map((item, index) => (
+          // Project Cards
           <div
             key={index}
             className="group">
             <div className="p-1 rounded-md duration-200 hover:bg-primary/[0.5] hover:scale-105">
               <div
-                className="p-6 w-[320px] bg-base-300 rounded-md"
+                className="p-4 w-[320px] bg-base-200 rounded-md"
                 onClick={() => handleClick(index)}>
-                <ProjectItem
+                <ProjectCard
                   images={item.images}
                   title={item.title}
                   date={item.date}
