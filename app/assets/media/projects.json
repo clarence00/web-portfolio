@@ -1,0 +1,58 @@
+[
+  {
+    "images": [
+      "imodatabase/1.png",
+      "imodatabase/1.png",
+      "imodatabase/1.png"
+    ],
+    "title": "IMO Database System",
+    "date": "2020",
+    "caption":
+      "IMO Doba (IMO Docubase) is a digitized document database system, relying on inputs from the Raspberry Pi which utlizes Optical Character Recognition,",
+    "details":
+      "IMO Doba (IMO Docubase) is a digitized document database system, relying on inputs from the Raspberry Pi which utlizes Optical Character Recognition, to recognize texts and automatically name files accordingly.'\n' The system was developed by our group in thesis and my role involved creating the design layout of the web in Figma, handling the database and frontend side of web using SQLite and Django.",
+    "icons": ["react", "sass", "javascript"]
+  },
+  {
+    "images": [
+      "imodatabase/1.png",
+      "imodatabase/1.png",
+      "imodatabase/1.png"
+    ],
+    "title": "IMO Database System 1",
+    "date": "2020",
+    "caption":
+      "IMO Doba (IMO Docubase) is a digitized document database system, relying on inputs from the Raspberry Pi which utlizes Optical Character Recognition,",
+    "details":
+      "IMO Doba (IMO Docubase) is a digitized document database system, relying on inputs from the Raspberry Pi which utlizes Optical Character Recognition, to recognize texts and automatically name files accordingly.'\n' The system was developed by our group in thesis and my role involved creating the design layout of the web in Figma, handling the database and frontend side of web using SQLite and Django.",
+    "icons": ["react", "sass", "javascript"]
+  },
+  {
+    "images": [
+      "imodatabase/1.png",
+      "imodatabase/1.png",
+      "imodatabase/1.png"
+    ],
+    "title": "IMO Database System 2",
+    "date": "2020",
+    "caption":
+      "IMO Doba (IMO Docubase) is a digitized document database system, relying on inputs from the Raspberry Pi which utlizes Optical Character Recognition,",
+    "details":
+      "IMO Doba (IMO Docubase) is a digitized document database system, relying on inputs from the Raspberry Pi which utlizes Optical Character Recognition, to recognize texts and automatically name files accordingly.'\n' The system was developed by our group in thesis and my role involved creating the design layout of the web in Figma, handling the database and frontend side of web using SQLite and Django.",
+    "icons": ["react", "sass", "javascript"]
+  },
+  {
+    "images": [
+      "imodatabase/1.png",
+      "imodatabase/1.png",
+      "imodatabase/1.png"
+    ],
+    "title": "IMO Database System 3",
+    "date": "2020",
+    "caption":
+      "IMO Doba (IMO Docubase) is a digitized document database system, relying on inputs from the Raspberry Pi which utlizes Optical Character Recognition,",
+    "details":
+      "IMO Doba (IMO Docubase) is a digitized document database system, relying on inputs from the Raspberry Pi which utlizes Optical Character Recognition, to recognize texts and automatically name files accordingly.'\n' The system was developed by our group in thesis and my role involved creating the design layout of the web in Figma, handling the database and frontend side of web using SQLite and Django.",
+    "icons": ["react", "sass", "javascript"]
+  }
+]

@@ -91,10 +91,10 @@ function Experience() {
 
   return (
     <div>
-      <div className="flex flex-col items-center">
-        <h1 className="text-3xl font-bold p-8">Experience</h1>
+      <div className="flex flex-col items-center mt-20">
         <div className="flex mx-[15%] justify-center gap-12">
-          <div className="flex flex-col pt-20 gap-2">
+          <div className="flex flex-col pt-16 gap-2">
+            <h1 className="text-3xl font-bold mx-auto mb-4">Experience</h1>
             {links.map((item) => (
               <button
                 key={item.name}
