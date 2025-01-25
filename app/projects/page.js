@@ -30,7 +30,7 @@ function Projects() {
   return (
     <div className="flex flex-col items-center">
       <h1 className="text-3xl font-bold p-8 pt-16">Project</h1>
-      <div className="flex gap-2 mx-[10%] flex-wrap">
+      <div className="grid gap-2 mx-[10%] grid-cols-[repeat(3,_minmax(320px,_1fr))] justify-items-center mb-20">
         {projects.map((item, index) => (
           // Project Cards
           <div
