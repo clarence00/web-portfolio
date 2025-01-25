@@ -49,18 +49,32 @@ function Experience() {
   ];
 
   const techStackData = [
-    { icon: "figma" },
-    { icon: "javascript" },
-    { icon: "sass" },
-    { icon: "react" },
     { icon: "nextjs" },
+    { icon: "react" },
+    { icon: "javascript" },
+    { icon: "nodejs" },
+    { icon: "html" },
+    { icon: "tailwindcss" },
+    { icon: "sass" },
     { icon: "css" },
+    { icon: "flutter" },
+    { icon: "dart" },
+    { icon: "python" },
+    { icon: "django" },
+    { icon: "csharp" },
+    { icon: "firebase" },
+    { icon: "mysql" },
+    { icon: "postgresql" },
   ];
 
   const toolData = [
     { icon: "vscode" },
+    { icon: "figma" },
     { icon: "canva" },
+    { icon: "git" },
+    { icon: "github" },
     { icon: "photoshop" },
+    { icon: "unity" },
   ];
 
   const [active, setActive] = useState("Career");

@@ -17,7 +17,7 @@ export default function TechStackCard({ techData }) {
 
   return (
     <div
-      className={`card-body flex flex-row gap-4 flex-wrap mx-auto  ${
+      className={`card-body flex flex-row gap-4 flex-wrap pl-12 pr-4 ${
         pointerEnabled ? "pointer-events-auto" : "pointer-events-none"
       }`}>
       {techData.map((data, index) => (
