@@ -11,9 +11,9 @@ export default function HeaderNav() {
   };
 
   const links = [
-    { name: "About", path: "/" },
-    { name: "Experience", path: "experience" },
-    { name: "Projects", path: "projects" },
+    { name: "About", path: "./" },
+    { name: "Experience", path: "./experience" },
+    { name: "Projects", path: "./projects" },
   ];
 
   return (
