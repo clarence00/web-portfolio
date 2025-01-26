@@ -1,11 +1,11 @@
 import React from "react";
 
-import { Facebook } from "../assets/icons/facebook.svg";
-import { Instagram } from "../assets/icons/instagram.svg";
-import { Github } from "../assets/icons/github.svg";
-import { LinkedIn } from "../assets/icons/linkedin.svg";
-import { Gallery } from "../assets/icons/gallery.svg";
-import { AboutCard } from "../components/AboutCard";
+import Facebook from "../assets/icons/facebook.svg";
+import Instagram from "../assets/icons/instagram.svg";
+import Github from "../assets/icons/github.svg";
+import LinkedIn from "../assets/icons/linkedin.svg";
+import Gallery from "../assets/icons/gallery.svg";
+import AboutCard from "../components/AboutCard";
 
 function About() {
   return (

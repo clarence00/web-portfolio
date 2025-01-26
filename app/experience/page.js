@@ -3,8 +3,8 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { AnimatePresence, motion } from "framer-motion";
-import { CareerCard } from "../components/CareerCard";
-import { TechStackCard } from "../components/TechStackCard";
+import CareerCard from "../components/CareerCard";
+import TechStackCard from "../components/TechStackCard";
 import careerData from "../assets/media/career.json";
 import techStackData from "../assets/media/techstack.json";
 import toolData from "../assets/media/tools.json";
