@@ -16,9 +16,9 @@ function Experience() {
   };
 
   const links = [
-    { name: "Career", path: "experience" },
-    { name: "Tech Stacks", path: "techStacks" },
-    { name: "Tools", path: "tools" },
+    { name: "Career", path: "./experience" },
+    { name: "Tech Stacks", path: "./techStacks" },
+    { name: "Tools", path: "./tools" },
   ];
 
   return (
