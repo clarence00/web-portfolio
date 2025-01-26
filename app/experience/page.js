@@ -1,9 +1,10 @@
 "use client";
 
 import React, { useState } from "react";
+import Link from "next/link";
 import { AnimatePresence, motion } from "framer-motion";
-import CareerCard from "../components/CareerCard";
-import TechStackCard from "../components/TechStackCard";
+import { CareerCard } from "../components/CareerCard";
+import { TechStackCard } from "../components/TechStackCard";
 import careerData from "../assets/media/career.json";
 import techStackData from "../assets/media/techstack.json";
 import toolData from "../assets/media/tools.json";
@@ -28,18 +29,23 @@ function Experience() {
           <div className="flex flex-col pt-16 gap-2">
             <h1 className="text-3xl font-bold mx-auto mb-4">Experience</h1>
             {links.map((item) => (
-              <button
-                key={item.name}
-                className={`${
-                  active === item.name ? "btn-active text-primary-content" : ""
-                } h-12 w-64 text-sm font-medium border border-accent btn-outline b text-accent rounded-2xl btn-accent`}
-                onClick={() => handleSetActive(item.name)}>
-                {item.name}
-              </button>
+              <Link
+                href={item.path}
+                key={item.name}>
+                <button
+                  className={`${
+                    active === item.name
+                      ? "btn-active text-primary-content"
+                      : ""
+                  } h-12 w-64 text-sm font-medium border border-accent btn-outline b text-accent rounded-2xl btn-accent`}
+                  onClick={() => handleSetActive(item.name)}>
+                  {item.name}
+                </button>
+              </Link>
             ))}
           </div>
           <div className="w-[600px]">
-            <AnimatePresence exitBeforeEnter>
+            <AnimatePresence mode="wait">
               {active === "Career" && (
                 <motion.div
                   key="Career"

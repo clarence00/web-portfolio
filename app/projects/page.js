@@ -1,9 +1,9 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import ProjectModal from "../components/ProjectModal";
+import { ProjectModal } from "../components/ProjectModal";
 import projectsData from "../assets/media/projects.json";
-import ProjectCard from "../components/ProjectCard";
+import { ProjectCard } from "../components/ProjectCard";
 import { AnimatePresence } from "framer-motion";
 
 const importAllImages = (imageFilenames) => {
