@@ -1,9 +1,10 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import ProjectModal from "../components/ProjectModal";
 import projectsData from "../assets/media/projects.json";
 import ProjectCard from "../components/ProjectCard";
+import { AnimatePresence } from "framer-motion";
 
 const importAllImages = (imageFilenames) => {
   return imageFilenames.map((filename) => {
@@ -13,6 +14,16 @@ const importAllImages = (imageFilenames) => {
 
 function Projects() {
   const [expandedProject, setExpandedProject] = useState(null);
+  const [pointerEnabled, setPointerEnabled] = useState();
+
+  useEffect(() => {
+    setPointerEnabled(false);
+    const timer = setTimeout(() => {
+      setPointerEnabled(true);
+    }, 1500);
+
+    return () => clearTimeout(timer);
+  }, []);
 
   const projects = projectsData.map((project) => ({
     ...project,
@@ -35,10 +46,12 @@ function Projects() {
           // Project Cards
           <div
             key={index}
-            className="group">
+            className={`${
+              pointerEnabled ? "pointer-events-auto" : "pointer-events-none"
+            }`}>
             <div className="p-1 rounded-md duration-200 hover:bg-primary/[0.5] hover:scale-105">
               <div
-                className="p-4 w-[320px] bg-base-200 rounded-md"
+                className="p-4 w-[320px] bg-base-300 rounded-md"
                 onClick={() => handleClick(index)}>
                 <ProjectCard
                   images={item.images}
@@ -53,15 +66,17 @@ function Projects() {
           </div>
         ))}
       </div>
-      {expandedProject !== null && (
-        <>
-          <ProjectModal
-            key={expandedProject}
-            project={projects[expandedProject]}
-            onClose={handleClose}
-          />
-        </>
-      )}
+      <AnimatePresence>
+        {expandedProject !== null && (
+          <>
+            <ProjectModal
+              key={expandedProject}
+              project={projects[expandedProject]}
+              onClose={handleClose}
+            />
+          </>
+        )}
+      </AnimatePresence>
     </div>
   );
 }

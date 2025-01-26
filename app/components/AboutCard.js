@@ -22,7 +22,7 @@ export default function AboutCard({
 
   return (
     <div
-      className={`flex flex-col rounded-2xl w-[80%] mx-4 duration-200 hover:scale-105 bg-accent/[0.1] shadow-xl ${
+      className={`flex flex-col rounded-2xl w-[90%] mx-4 duration-200 hover:scale-105 bg-accent/[0.1] shadow-xl ${
         pointerEnabled ? "pointer-events-auto" : "pointer-events-none"
       }`}>
       <div className="card-body p-4">

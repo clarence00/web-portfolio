@@ -5,7 +5,7 @@ import Icons from "./Icons";
 export default function ProjectCard({ images, title, date, caption, icons }) {
   return (
     <>
-      <div className="bg-base-300 rounded-lg">
+      <div className="bg-error-content rounded-lg">
         <Image
           src={images[0]}
           alt=" "

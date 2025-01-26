@@ -13,7 +13,8 @@
       "A digital document database system that automate text recognition and file naming.",
     "details":
       "IMO Doba (IMO Docubase) is a digital document database system designed to streamline document management. It leverages Raspberry Pi and Optical Character Recognition (OCR) technology to detect text and automatically generate appropriate file names. Developed as part of our thesis project, my responsibilities included designing the web interface using Figma and implementing the frontend and database functionality with Django and SQLite.",
-    "icons": ["django", "sqlite", "figma"]
+    "icons": ["django", "sqlite", "figma"],
+    "website": ""
   },
   {
     "images": [
@@ -32,7 +33,8 @@
       "A social media platform for food enthusiasts to share and discover a variety of recipes.",
     "details":
       "Let Me Cook is a social media application tailored for food lovers, enabling users to share their favorite recipes and explore a vast collection of culinary ideas. This project was developed by a team of four, where my role involved creating visually appealing assets and wireframes in Figma, ensuring the user interface was intuitive and engaging. I also worked extensively on the frontend, developing interactive widgets in Flutter, and responsible in managing the database structure in Firebase.",
-    "icons": ["flutter", "firebase", "figma"]
+    "icons": ["flutter", "firebase", "figma"],
+    "website": ""
   },
   {
     "images": [
@@ -43,13 +45,14 @@
       "badi/5.png",
       "badi/6.png"
     ],
-    "title": "Badi",
+    "title": "Badi (Buddy)",
     "date": "2023",
     "caption":
       "An engaging pixel-art-inspired note-taking and reviewer app designed for productivity.",
     "details":
       "Badi is a mobile application designed for self-studying users that wants to take notes and review topic effectively. This is the second app that I have designed. The app was inspired with retro pixel-art aesthetic, which were all created using Photoshop and developed using Unity.",
-    "icons": ["csharp", "unity", "photoshop", "androidstudio"]
+    "icons": ["csharp", "unity", "photoshop", "androidstudio"],
+    "website": ""
   },
   {
     "images": [
@@ -68,7 +71,8 @@
       "A fun and interactive puzzle game designed to teach basic math operations through engaging gameplay.",
     "details":
     "Math Connect is an educational puzzle game designed for users who wants to learn basic math operations. This is the first game development app we have done for our project. The game was my idea inspired from the different pixel style and io games I have found in the internet. In this project, I created all of the assets and animations in Photoshop, lead the development of both frontend and backend side of the game.",
-    "icons": ["csharp", "unity", "photoshop", "androidstudio"]
+    "icons": ["csharp", "unity", "photoshop", "androidstudio"],
+    "website": ""
   }
  
 ]

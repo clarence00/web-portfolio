@@ -13,7 +13,7 @@ function About() {
       <div className="max-w-[960px] pb-20 m-auto w-full h-full flex flex-col justify-center items-start">
         {/* Name Section */}
         <div className="flex">
-          <div className="w-[50%] py-4 ">
+          <div className="w-[55%] py-4">
             <h2 className="text-lg">An artist and a programmer</h2>
             <h1 className="font-bold text-5xl">Hello! I&#39;m</h1>
             <h1 className="font-bold text-5xl text-primary pb-4">
@@ -49,7 +49,7 @@ function About() {
         {/* Logo Icon Section*/}
         <div className="flex mt-4 gap-4">
           <a
-            href=""
+            href="https://www.facebook.com/clarence.natividad.96"
             target="_blank"
             rel="noopener noreferrer">
             <div className="flex flex-col items-center w-10  group">
@@ -63,7 +63,7 @@ function About() {
             </div>
           </a>
           <a
-            href=""
+            href="https://www.instagram.com/nekoshietu_/"
             target="_blank"
             rel="noopener noreferrer">
             <div className="flex flex-col items-center w-10 group">
@@ -77,7 +77,7 @@ function About() {
             </div>
           </a>
           <a
-            href=""
+            href="https://github.com/clarence00"
             target="_blank"
             rel="noopener noreferrer">
             <div className="flex flex-col items-center w-10 group">
@@ -91,7 +91,7 @@ function About() {
             </div>
           </a>
           <a
-            href=""
+            href="https://www.linkedin.com/in/clarence-c-natividad-068476251/"
             target="_blank"
             rel="noopener noreferrer">
             <div className="flex flex-col items-center w-10 group">
@@ -105,7 +105,7 @@ function About() {
             </div>
           </a>
           <a
-            href=""
+            href="https://www.behance.net/clarencnativid"
             target="_blank"
             rel="noopener noreferrer">
             <div className="flex flex-col items-center w-10 group">

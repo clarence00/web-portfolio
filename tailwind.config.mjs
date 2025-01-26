@@ -37,7 +37,7 @@ export default {
       },
     },
   },
-  plugins: [require("daisyui")],
+  plugins: [require("daisyui"), require("tailwind-scrollbar")],
   daisyui: {
     themes: ["forest"],
   },

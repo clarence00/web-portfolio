@@ -22,7 +22,7 @@ function Experience() {
   ];
 
   return (
-    <div>
+    <div className="h-screen">
       <div className="flex flex-col items-center mt-20">
         <div className="flex mx-[15%] justify-center gap-12">
           <div className="flex flex-col pt-16 gap-2">
