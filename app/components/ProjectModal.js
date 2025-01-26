@@ -94,7 +94,7 @@ export default function ProjectModal({ project, onClose }) {
                   <h2 className="text-sm italic">
                     Link:{" "}
                     <Link
-                      href="#"
+                      href={project.website}
                       className="text-sm italic text-primary">
                       {project.website}
                     </Link>

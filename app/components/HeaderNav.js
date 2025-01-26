@@ -20,7 +20,7 @@ export default function HeaderNav() {
     <div className="navbar bg-base-300 shadow-lg sticky top-0 z-10 px-40">
       <div className="flex-1">
         <Link
-          href="/"
+          href="./"
           onClick={() => handleSetActive("About")}
           className="btn btn-ghost text-xl">
           Clarence
